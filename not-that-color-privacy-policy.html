@@ -197,53 +197,118 @@
                     your privacy and are committed to maintaining a secure and transparent experience for all players.
                 </p>
                 <div class="highlight-box">
-                    <p><strong>Strict Privacy Standard:</strong> The Game is fully offline, does not connect to the
-                        internet, and does not collect, store, share, or transmit any user data or personal information.
-                    </p>
+                    <p><strong>Our Privacy Approach:</strong> We do not directly collect, store, or share any personal
+                        information you provide. However, the Game uses <strong>Google Firebase Cloud Messaging</strong>
+                        for push notifications and <strong>Google AdMob</strong> for advertising, both of which require
+                        internet access and may process certain device data on our behalf. Full details are provided in
+                        Sections 4 and 5 below.</p>
                 </div>
             </section>
 
             <section>
-                <h2>2. Data Collection & Usage</h2>
-                <p>Because the Game functions entirely locally on your device, we do not collect any personal data.
-                    Specifically:</p>
+                <h2>2. Data Collection &amp; Usage</h2>
+                <p>The Game itself does not collect, store, or share any personal data that you provide. Specifically:
+                </p>
                 <ul>
                     <li><strong>No Personal Information:</strong> We do not ask for or collect names, email addresses,
                         phone numbers, or account details.</li>
                     <li><strong>In-Memory Scoring:</strong> Gameplay scores, player settings, and reaction times are
                         processed completely in the device's temporary volatile memory (RAM) and are deleted immediately
                         when you close or restart the Game.</li>
-                    <li><strong>No Analytics or Tracking:</strong> We do not track your behavior, usage statistics, or
-                        device identifiers.</li>
+                    <li><strong>No Behavioral Analytics or Tracking:</strong> We do not track your in-game behavior,
+                        usage statistics, or personal identifiers.</li>
                 </ul>
+                <p>However, we use <strong>Google Firebase Cloud Messaging (FCM)</strong> to deliver push notifications
+                    and <strong>Google AdMob</strong> to display advertisements. Both services automatically collect
+                    certain device data on our behalf. See Sections 4 and 5 for full details.</p>
             </section>
 
             <section>
                 <h2>3. Device Permissions</h2>
-                <p>The Game does not require or request access to any sensitive permissions on your device, such as your
-                    camera, microphone, photo library, contacts, location, or network access.</p>
+                <p>The Game does not require access to sensitive permissions such as your camera, microphone, photo
+                    library, contacts, or location. However, the Game does require <strong>internet/network
+                        access</strong> for the following purposes:</p>
+                <ul>
+                    <li>Delivering push notifications via <strong>Firebase Cloud Messaging (FCM)</strong></li>
+                    <li>Displaying advertisements via <strong>Google AdMob</strong></li>
+                </ul>
+                <p>No gameplay data or personal information you enter is transmitted over this connection.</p>
             </section>
 
             <section>
-                <h2>4. Third-Party Services</h2>
-                <p>The Game does not integrate any third-party services, APIs, advertisement networks, analytics
-                    platforms, or social networks. No data is shared with or sent to any third party.</p>
+                <h2>4. Push Notifications &amp; Firebase Cloud Messaging</h2>
+                <p>We use <strong>Google Firebase Cloud Messaging (FCM)</strong> to deliver push notifications to your
+                    device. To facilitate notification delivery, the Firebase SDK automatically collects and processes
+                    certain device metadata, including:</p>
+                <ul>
+                    <li><strong>Firebase Installation IDs (FIDs) and FCM Tokens</strong></li>
+                    <li>Basic device information (such as operating system version and model)</li>
+                </ul>
+                <p>This data is processed by Google on our behalf for the following declared purposes:</p>
+                <ul>
+                    <li><strong>App Functionality</strong> — Routing and delivering push notifications to your device.
+                    </li>
+                    <li><strong>Developer Communications</strong> — Sending you important updates, announcements, or
+                        communications related to the Game (e.g., new version releases or policy changes).</li>
+                </ul>
+                <p>All data is transmitted securely via HTTPS and is not shared with third parties for independent
+                    marketing purposes.</p>
+                <p>You can manage or disable push notifications at any time through your device's system settings. For
+                    more information on how Google processes data, please review
+                    <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.
+                </p>
             </section>
 
             <section>
-                <h2>5. Children's Privacy</h2>
-                <p>The Game is completely safe for players of all ages, including children under the age of 13. Since we
-                    do not collect any data, there is no risk of collecting information from children.</p>
+                <h2>5. Advertising (Google AdMob)</h2>
+                <p>The Game displays <strong>interstitial ads</strong> (full-screen ads shown between gameplay sessions)
+                    on Android devices, provided by <strong>Google AdMob</strong>. To serve relevant ads, Google may
+                    automatically collect and process certain information from your device, which may include:</p>
+                <ul>
+                    <li>Advertising ID (Google Advertising ID / GAID)</li>
+                    <li>IP address and approximate location (derived from IP)</li>
+                    <li>Device information (manufacturer, model, OS version)</li>
+                    <li>Ad interaction data (impressions, clicks)</li>
+                </ul>
+                <p>This data is collected and processed by Google in accordance with their own privacy policies. We do
+                    not receive or store your Advertising ID or any other ad-related personal data ourselves.</p>
+                <p>You can opt out of personalised ads at any time by adjusting your device settings:</p>
+                <ul>
+                    <li><strong>Android:</strong> Settings → Google → Ads → "Delete advertising ID" or "Opt out of
+                        Ads Personalization"</li>
+                </ul>
+                <p>For more information, please review
+                    <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a> and
+                    <a href="https://support.google.com/admob/answer/6128543" target="_blank">Google AdMob's data
+                        practices</a>.
+                </p>
             </section>
 
             <section>
-                <h2>6. Changes to this Policy</h2>
-                <p>We may update our Privacy Policy from time to time. Since the Game is completely offline, any policy
-                    updates will be published alongside any new versions of the Game on the app stores.</p>
+                <h2>6. Other Third-Party Services</h2>
+                <p>Apart from Firebase Cloud Messaging and Google AdMob described above, the Game does not integrate
+                    any other analytics platforms or social networks. No personal data is shared with any other
+                    third party.</p>
             </section>
 
             <section>
-                <h2>7. Contact Us</h2>
+                <h2>7. Children's Privacy</h2>
+                <p>The Game is designed to be safe for players of all ages, including children under the age of 13. We
+                    do not knowingly collect personal information from children. However, please be aware that
+                    <strong>Google AdMob</strong> may collect device identifiers (such as Advertising ID) to serve ads,
+                    and <strong>Google Firebase</strong> collects device metadata for push notification delivery, as
+                    described in Sections 4 and 5. Both services are governed by Google's own privacy policies.
+                </p>
+            </section>
+
+            <section>
+                <h2>8. Changes to this Policy</h2>
+                <p>We may update our Privacy Policy from time to time. Any policy updates will be published alongside
+                    new versions of the Game on the app stores.</p>
+            </section>
+
+            <section>
+                <h2>9. Contact Us</h2>
                 <p>If you have any questions or suggestions about this Privacy Policy, do not hesitate to contact us at
                     <a href="mailto:paras.shakya010@gmail.com">paras.shakya010@gmail.com</a>.
                 </p>
@@ -251,7 +316,7 @@
         </main>
 
         <footer>
-            <p>Last updated: June 18, 2026</p>
+            <p>Last updated: July 24, 2026</p>
         </footer>
     </div>
 </body>
